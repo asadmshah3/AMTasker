@@ -1,0 +1,41 @@
+name: Bug report
+description: Something doesn't work as expected
+labels: [bug]
+body:
+  - type: markdown
+    attributes:
+      value: Thanks for taking the time to report a bug. Please don't include personal data from your logs.
+  - type: textarea
+    id: what-happened
+    attributes:
+      label: What happened?
+      description: What did you do, what did you expect, and what happened instead?
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      placeholder: |
+        1. Open the Logger page
+        2. Click ...
+        3. See ...
+    validations:
+      required: true
+  - type: input
+    id: browser
+    attributes:
+      label: Browser and operating system
+      placeholder: e.g. Chrome 131 on Ubuntu 24.04
+    validations:
+      required: true
+  - type: input
+    id: version
+    attributes:
+      label: AMTasker version or commit
+      placeholder: e.g. 1.0.0, or the live demo
+  - type: textarea
+    id: extra
+    attributes:
+      label: Screenshots or console errors
+      description: Optional. Errors from the browser's developer console (F12) help a lot.

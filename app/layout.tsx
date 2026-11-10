@@ -5,9 +5,6 @@ export const metadata: Metadata = {
   title: "AMTasker — Daily Task and Time Logger",
   description:
     "A local-first daily task and time logger: see at a glance whether you are logging, log time per task, keep notes and priorities. Your data stays in your browser.",
-  icons: {
-    icon: [{ url: "/icon.svg", type: "image/svg+xml" }],
-  },
 }
 
 export const viewport: Viewport = {

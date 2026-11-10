@@ -27,7 +27,7 @@ This guide follows one person through a normal Wednesday with four tasks:
 
 ## 1. First start
 
-Run AMTasker (see the [README](../README.md#get-started)) and open it in your browser. It opens on the **Logger** page.
+Run AMTasker (see [Getting started](../README.md#getting-started) in the README for Linux, macOS and Windows) and open it in your browser. It opens on the **Logger** page.
 
 ![The Logger page on first start: nothing logged yet](images/first-launch.png)
 

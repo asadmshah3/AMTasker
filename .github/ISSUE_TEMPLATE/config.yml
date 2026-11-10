@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Security vulnerability
+    url: https://github.com/asadmshah3/AMTasker/security/advisories/new
+    about: Please report security issues privately.
+  - name: User guide
+    url: https://github.com/asadmshah3/AMTasker/blob/main/docs/USER_GUIDE.md
+    about: How to use AMTasker, with screenshots.
