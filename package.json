@@ -21,25 +21,25 @@
     "check": "pnpm format:check && pnpm typecheck && pnpm lint && pnpm test && pnpm build"
   },
   "dependencies": {
-    "@base-ui/react": "^1.5.0",
-    "idb": "^8.0.3",
-    "lucide-react": "^1.16.0",
-    "next": "16.3.3",
-    "react": "19.2.4",
-    "react-dom": "19.2.4",
-    "zod": "^4.6.5"
+    "@base-ui/react": "^1.9.0",
+    "idb": "^8.0.4",
+    "lucide-react": "^1.70.0",
+    "next": "16.4.5",
+    "react": "19.3.1",
+    "react-dom": "19.3.1",
+    "zod": "^4.6.7"
   },
   "devDependencies": {
-    "@tailwindcss/postcss": "^4.3.3",
-    "@types/node": "^24",
-    "@types/react": "19.2.14",
-    "@types/react-dom": "19.2.3",
-    "eslint": "^9.39.5",
-    "eslint-config-next": "^16.3.7",
+    "@tailwindcss/postcss": "^4.3.5",
+    "@types/node": "^26",
+    "@types/react": "19.3.0",
+    "@types/react-dom": "19.3.0",
+    "eslint": "^10.14.0",
+    "eslint-config-next": "^16.4.5",
     "postcss": "^8.5",
     "prettier": "^3.9.10",
-    "tailwindcss": "^4.3.3",
-    "typescript": "5.7.3",
-    "vitest": "^5.0.2"
+    "tailwindcss": "^4.3.5",
+    "typescript": "7.0.2",
+    "vitest": "^5.1.0"
   }
 }
